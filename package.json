@@ -1,0 +1,12 @@
+{
+  "name": "baseserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/calba5141114/baseserver.git",
+  "author": "Carlos Alba <CARLOSalba989@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
