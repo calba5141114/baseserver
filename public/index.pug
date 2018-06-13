@@ -1,0 +1,17 @@
+
+doctype html
+head
+    title
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+form(action='/profile', method='POST')
+    input#name(name='name', type='text', placeholder='name')
+    br
+    input#job(name='job', type='text', placeholder='job')
+    br
+    input#location(name='location', type='text', placeholder='location')
+    br
+    input#submit(type='submit', value='Submit')
+
+script(src='index.js')
